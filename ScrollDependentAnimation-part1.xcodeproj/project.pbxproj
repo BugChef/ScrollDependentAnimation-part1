@@ -8,22 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		49C9D95B29B4EC58001A8C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9D95A29B4EC58001A8C84 /* AppDelegate.swift */; };
-		49C9D95D29B4EC58001A8C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9D95C29B4EC58001A8C84 /* SceneDelegate.swift */; };
-		49C9D95F29B4EC58001A8C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9D95E29B4EC58001A8C84 /* ViewController.swift */; };
-		49C9D96229B4EC58001A8C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C9D96029B4EC58001A8C84 /* Main.storyboard */; };
-		49C9D96429B4EC59001A8C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C9D96329B4EC59001A8C84 /* Assets.xcassets */; };
-		49C9D96729B4EC59001A8C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C9D96529B4EC59001A8C84 /* LaunchScreen.storyboard */; };
+		49C9D97029B4F146001A8C84 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9D96E29B4F146001A8C84 /* ProgressView.swift */; };
+		49C9D97129B4F146001A8C84 /* ProgressExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9D96F29B4F146001A8C84 /* ProgressExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49C9D95729B4EC58001A8C84 /* ScrollDependentAnimation-part1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollDependentAnimation-part1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C9D95A29B4EC58001A8C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49C9D95C29B4EC58001A8C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49C9D95E29B4EC58001A8C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49C9D96129B4EC58001A8C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		49C9D96329B4EC59001A8C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49C9D96629B4EC59001A8C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49C9D96829B4EC59001A8C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C9D96E29B4F146001A8C84 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		49C9D96F29B4F146001A8C84 /* ProgressExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				49C9D95A29B4EC58001A8C84 /* AppDelegate.swift */,
-				49C9D95C29B4EC58001A8C84 /* SceneDelegate.swift */,
-				49C9D95E29B4EC58001A8C84 /* ViewController.swift */,
-				49C9D96029B4EC58001A8C84 /* Main.storyboard */,
-				49C9D96329B4EC59001A8C84 /* Assets.xcassets */,
-				49C9D96529B4EC59001A8C84 /* LaunchScreen.storyboard */,
+				49C9D96F29B4F146001A8C84 /* ProgressExampleViewController.swift */,
+				49C9D96E29B4F146001A8C84 /* ProgressView.swift */,
 				49C9D96829B4EC59001A8C84 /* Info.plist */,
 			);
 			path = "ScrollDependentAnimation-part1";
@@ -125,9 +116,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C9D96729B4EC59001A8C84 /* LaunchScreen.storyboard in Resources */,
-				49C9D96429B4EC59001A8C84 /* Assets.xcassets in Resources */,
-				49C9D96229B4EC58001A8C84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +126,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C9D95F29B4EC58001A8C84 /* ViewController.swift in Sources */,
+				49C9D97029B4F146001A8C84 /* ProgressView.swift in Sources */,
 				49C9D95B29B4EC58001A8C84 /* AppDelegate.swift in Sources */,
-				49C9D95D29B4EC58001A8C84 /* SceneDelegate.swift in Sources */,
+				49C9D97129B4F146001A8C84 /* ProgressExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		49C9D96029B4EC58001A8C84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49C9D96129B4EC58001A8C84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		49C9D96529B4EC59001A8C84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49C9D96629B4EC59001A8C84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		49C9D96929B4EC59001A8C84 /* Debug */ = {
@@ -292,9 +261,8 @@
 				INFOPLIST_FILE = "ScrollDependentAnimation-part1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +270,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bugchef.ScrollDependentAnimation-part1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +291,8 @@
 				INFOPLIST_FILE = "ScrollDependentAnimation-part1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +300,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bugchef.ScrollDependentAnimation-part1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
