@@ -1,3 +1,3 @@
-# Анимация UIView, зависящая от прокрутки содержимого UIScrollView
+# UIView animation dependent on scrolling UIScrollView content
 
-Example project из статьи
+The repository you are currently viewing contains a project that was previously described in an article. The article covers how to implement animations on **UIScrollView** content that react to scrolling events. It provides step-by-step instructions on how to set up the animation and customize it to fit your own projects. By following along with the article, you will gain a better understanding of animations that depend on scrolling **UIScrollView content**. Then you will be able to apply these animations in your own projects with ease.
