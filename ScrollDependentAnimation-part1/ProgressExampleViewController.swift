@@ -82,7 +82,7 @@ extension ProgressExampleViewController: UITableViewDelegate {
         let currentContentOffsetY = scrollView.contentOffset.y
         let scrollDiff = currentContentOffsetY - previousContentOffsetY
 
-        // Верхняя граница начала bounce эффекта
+        // Upper border of the bounce effect
         let bounceBorderContentOffsetY = -scrollView.contentInset.top
 
         let contentMovesUp = scrollDiff > 0 && currentContentOffsetY > bounceBorderContentOffsetY
@@ -92,20 +92,20 @@ extension ProgressExampleViewController: UITableViewDelegate {
         var newConstraintConstant = currentConstraintConstant
 
         if contentMovesUp {
-            // Уменьшаем константу констрэйнта
+            // Reducing the constraint's constant
             newConstraintConstant = max(currentConstraintConstant - scrollDiff, minConstraintConstant)
         } else if contentMovesDown {
-            // Увеличиваем константу констрэйнта
+            // Increasing the constraint's constant
             newConstraintConstant = min(currentConstraintConstant - scrollDiff, maxConstraintConstant)
         }
 
-        // Меняем высоту и запрещаем скролл, только в случае изменения константы
+        // If the constant is modified, changing the height and disable scrolling
         if newConstraintConstant != currentConstraintConstant {
             animatedConstraint?.constant = newConstraintConstant
             scrollView.contentOffset.y = previousContentOffsetY
         }
 
-        // Процент завершения анимации
+        // Animation progress percentage
         let animationCompletionPercent = (maxConstraintConstant - currentConstraintConstant) / (maxConstraintConstant - minConstraintConstant)
         progressView.progress = Float(animationCompletionPercent)
 
