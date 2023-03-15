@@ -9,7 +9,7 @@ import UIKit
 
 class ProgressView: UIView {
 
-    /// Процент завершения анимации. Число от 0 до 1
+    /// Percent of animation completion
     var progress: Float = 0 {
         didSet {
             slider.value = progress
